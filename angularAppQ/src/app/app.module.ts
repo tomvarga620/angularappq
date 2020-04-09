@@ -5,6 +5,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '../modules/material/material.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -14,6 +17,7 @@ import { NavbarComponent } from './navbar/navbar.component';
   imports: [
   BrowserModule,
     AppRoutingModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
     BrowserAnimationsModule,
     MaterialModule
   ],
