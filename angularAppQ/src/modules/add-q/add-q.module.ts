@@ -6,8 +6,8 @@ import { AddQComponent } from './add-q/add-q.component';
 @NgModule({
   declarations: [AddQComponent],
   imports: [
-    AddQRoutingModule,
-    CommonModule
+    CommonModule,
+    AddQRoutingModule
   ]
 })
 export class AddQModule { }
