@@ -1,0 +1,11 @@
+.quizList {
+    /*background-color: red;*/
+    width:100%;
+    height:auto;
+    min-height:100%;
+    padding:none;
+    margin:0 auto;
+    display:flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}

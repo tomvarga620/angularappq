@@ -1,1 +1,24 @@
-<p>add-q works!</p>
+<section class="wrapper">
+    <mat-card class="form-add">
+        <mat-card-header>
+            <mat-card-title>Question Number - </mat-card-title>
+        </mat-card-header>
+
+        <mat-form-field>
+            <mat-label>Enter Question Name</mat-label>
+            <input matInput placeholder="Enter name" required formControlName="">
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Enter Question Answer</mat-label>
+            <input matInput placeholder="Enter Answer" required formControlName="">
+        </mat-form-field>
+
+        <button mat-raised-button color="accent">Add Question</button>
+
+        <br>
+
+        <button mat-raised-button color="accent">Done</button>
+
+    </mat-card>
+</section>
